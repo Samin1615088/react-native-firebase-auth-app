@@ -1,10 +1,10 @@
 import React from 'react';
 import { Text } from 'react-native';
 
-const Signup = () => {
+const SignIn = () => {
     return (
-        <Text>SignUp</Text>
+        <Text>SignIn</Text>
     );
 };
 
-export default Signup;
+export default SignIn;

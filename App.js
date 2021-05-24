@@ -1,17 +1,20 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { Alert, StyleSheet, Text, View } from 'react-native';
 import CreateAccount from './screens/CreateAccount/CreateAccount';
 import Home from './screens/Home/Home';
-import Signup from './screens/Signup/Signup';
+import SignIn from './screens/SignIn/SignIn';
+
 export default function App() {
+  
+
   return (
     <View style={styles.container}>
       <Text>This is demo</Text>
       <StatusBar style="auto" />
-      <Home/>
-      <CreateAccount/>
-      <Signup/>
+      <Home />
+      <CreateAccount />
+      <SignIn />
     </View>
   );
 }
